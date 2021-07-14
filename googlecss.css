@@ -54,7 +54,18 @@ figure{
     font-feature-settings: 'liga';
   }
 
-  
-#search {
-    background-image: 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.left {
+    float: left;
+    margin: 1em 0.5em 0 1em;
+}
+
+.right {
+    float: right;
+    margin: 1em 0.5em 0 1em;
 }
