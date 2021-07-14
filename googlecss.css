@@ -1,0 +1,30 @@
+.container {
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+img {
+    display: block;
+    border: 2px solid red;
+    margin: 15em auto 0 auto;
+}
+
+figure{
+    border: 2px solid;
+    width: 100%;
+    margin: 0 auto; 
+}
+
+.search-button {
+    display: block;
+    margin: 2em auto 0 auto;
+    border-radius: 25px;
+    border: 1px solid rgb(206, 205, 205);
+    height: 2.8em;
+    width: 40em;
+}
+
+.search-button:hover {
+    box-shadow: 1px 1px rgb(199, 199, 199);
+}
