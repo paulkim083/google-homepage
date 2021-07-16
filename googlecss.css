@@ -1,19 +1,25 @@
+* {
+    box-sizing: border-box;
+}
 .container {
     width: 100%;
     margin: 0 auto;
     height: 100%;
+    
 }
 
 img {
     display: block;
-    border: 2px solid red;
     margin: 15em auto 0 auto;
+    clear: both;
+    
+    
 }
 
 figure{
-    border: 2px solid;
+    
     width: 100%;
-    margin: 0 auto; 
+    margin:  auto; 
 }
 
 .search-button {
@@ -64,15 +70,13 @@ ul {
     color:rgb(58, 56, 56)
 }
 
-.left {
-    float: left;
-    margin: 1em 0.5em 0 1em;
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-.right {
-    float: right;
-    margin: 1em 0.5em 0 1em;
-}
+
 
 .button {
     background: rgb(11, 125, 231);
@@ -81,5 +85,42 @@ ul {
     border: 0;
     padding: 0.5em 1.5em;
     border-radius: 0.3em;
+}
+
+.left {
+    margin: 1em 1em;
+    display: inline-block;
+}
+
+.right {
+    margin: 1em 1em;
+    display: inline-block;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 1em;
+    background:rgb(236, 236, 236);
     
+}
+
+.left2 {
+    display:inline-block;
+    padding: 1em 1em 3em 1em;
+}
+
+.right2 {
+    display:inline-block;
+    padding: 1em 1em 3em 1em;
 }
