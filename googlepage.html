@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     </head>
     <body>
+        <div class="container">
         <div class="nav">
             <ul class="navigation">
                 <li class="left"><a href="">About</a></li>
@@ -17,13 +18,18 @@
             <ul class="nav2">
                 <li class="right"><a href="">Gmail</a></li>
                 <li class="right"><a href="">Images</a></li>
-                <li class="right"><a href="">Menu Icon</a></li>
-                <li class="right"><a href="">Sign in</a></li>
+                <li class="right"><a href=""><span class="material-icons">
+                    apps
+                    </span></a></li>
+                <li class="right"><a href=""></a><span class="material-icons">
+                    account_circle
+                    </span></a></li>
             </ul>
+            
         </div>
-        </div>
+        
 
-        <div class="container">
+        <div class="middle">
         <figure>
             <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
                  alt="google logo">
@@ -33,7 +39,12 @@
         <input type="text"
                 id ="search"
                 class="search-button">
-                
+        <div class="buttons">
+        <button class="button1"><a href=""
+                                   id="text-none">Google Search</a></button>
+        <button class="button1"><a href=""
+                                   id="text-none">I'm Feeling Lucky</a></button>
+        </div>
         </div>
 
         <footer>
@@ -48,5 +59,6 @@
                 <li class="right2"><a href="#">Setting</a></li>
             </ul>
         </footer>
+    </div>
     </body>
 </html>
